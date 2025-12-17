@@ -1,0 +1,15 @@
+{
+  "name": "nrui-core",
+  "version": "0.1.0",
+  "description": "NRUI: a new UI programming model without state, time, or events.",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/tests/run-tests.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.4.0"
+  }
+}
